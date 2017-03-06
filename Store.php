@@ -21,7 +21,7 @@
 
 <?php 
 	//Establish connection details
-	$connect = mysqli_connect("csmysql.cs.cf.ac.uk", "c1525379", "GenericPass123", "c1525379");
+	$connect = mysqli_connect("csmysql.cs.cf.ac.uk", "c1525379", "*********", "c1525379");
 	if (!$connect) { //test connection to mySQL
 		die("Connecttion Failed: " . mysqli_connect_error());
 	}
